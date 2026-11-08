@@ -121,9 +121,22 @@ background-color: #e3e3e3;
 
 @media(max-width:576px) {
   .main_image {
-    display:none;
+    padding-bottom:0px;
+    margin-bottom:0px;
   }
-  
+  .section {
+    padding-top:0px;
+    margin-top: 0px;
+  }
+
+  .little_icons {
+    font-size:15px;
+  }
+  .synopsis {
+    margin-top:0px;
+    margin-bottom:10px;
+  }
+
   h1{
     font-size:44px;
   }
@@ -140,18 +153,6 @@ background-color: #e3e3e3;
     font-size:18px;
   }
 
-  .section {
-    padding-top:0px;
-    margin-top: 0px;
-  }
-
-  .little_icons {
-    font-size:15px;
-  }
-  .synopsis {
-    margin-top:0px;
-    margin-bottom:10px;
-  }
 }
 
 
