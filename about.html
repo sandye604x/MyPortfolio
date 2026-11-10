@@ -13,24 +13,48 @@
     <title>About Me</title>
 </head>
 <body>
-  <div class="container_one">
-    <div class="row">
-    <h1>About</h1>
-    <div class="col-sm-6 text-wrap pb-5">
-    <h3> Hi, I am Sandhya Ellis</h3>
-    <p>Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:<br />
-       Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. 
-       I will have add some more lines.</p>
-       <button type="button" class="btn aboutme"> See my projects</button>
-  </div>
+  <h6>About Me Page</h6>
+  <div class="container">
+    
+    <div class="nav_container">
+       <nav class="d-flex justify-content-between">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="My own logo"/>
+        <img src="images/logo-small.png" class="logo d-block d-md-none" alt="Smaller logo"/>
+      <ul>
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+       <li>
+        <a href="/work.html">Work</a>
+      </li>
+      <li class="active">
+        <a href="/">About</a>
+      </li>
+      <li>
+        <a href="/contact.html">Contact</a>
+      </li>
+    </ul>
+    </nav>
+  </div>  
 
-<div class="col-sm-6 d-flex justify-content-center">
-    <img src="images/photo-two.jpeg" class="about_my_image" alt="My photo" title="sketch of me"/>
+    <div class="row mt-5 pt-5"> 
+     <div class="col-7 text-wrap pb-5">
+      <h1>About</h1>
+       <h3> Hi, I am Sandhya Ellis</h3>
+       <div class="silly_text mb-3 pb-5 me-5">Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:
+       <br />
+       Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. 
+       I will have add some more lines.</div>
+       <a href="/work.html" class="aboutme-button text-decoration-none" title="View my projects on work page"> See my projects</a>
+     </div>
+
+  <div class="col-4 d-flex justify-content-center ps-0">
+    <img src="images/photo-one.png" class="about_my_image" alt="A sketch of me"/>
 </div>
 </div> 
 
  <footer>
-   <div class="little_icons d-flex justify-content-center">
+   <div class="footer d-flex justify-content-center mt-5">
     <h4>Contact</h4>
     <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram ps-5 pe-5"></i></a>
     <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook pe-5"></i></a>
