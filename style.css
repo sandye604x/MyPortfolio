@@ -165,7 +165,7 @@ nav li.active a, nav a:hover{
 }
 
 @media(max-width:576px) {
-  .main_image, .about_my_image {
+  .main_image {
     padding-bottom:0px;
     margin-bottom:0px;
   }
@@ -176,6 +176,7 @@ nav li.active a, nav a:hover{
 
   .footer {
     font-size:15px;
+    padding:0 !important;
   }
   .synopsis {
     margin-top:0px;
@@ -184,22 +185,28 @@ nav li.active a, nav a:hover{
   
   .about_my_image {
     display:none;
-    text-align:center;
   }
 
-  .container p{
-    margin-bottom:0;
-    text-wrap:balance;
+  .container-content h1{
+    margin-top:0px !important;
+    padding-top:0px !important;
+  }
+  .container-content{
+    width:500px;
+    aspect-ratio:1/1;
+    display:flex;
+    align-items:center !important;
+    overflow-wrap:break-word;
+    text-align:justify;
   }
 
-  .nav_container{
-   max-width:300px;
-   max-height:50px;
-   padding:0;
-   margin:0;
-   font-size:10px; 
+  nav li{
+   padding-right:1px !important;
+   margin-left:0 !important;
+   justify-content: center;
+   font-size:15px;
   }
-
+  
   h1{
     font-size:40px;
   }
@@ -215,9 +222,13 @@ nav li.active a, nav a:hover{
   p {
     font-size:15px;
   }
+
+  h6 {
+    display:none;
+  }
 }
 
-.container h3{
+.container-content h3{
   margin-top: 15px;
   margin-bottom:18px;
   letter-spacing: 1;
@@ -230,6 +241,7 @@ nav li.active a, nav a:hover{
   color:black;
   font-size:20px;
   font-weight:400;
+  text-align:justify;
 }
 
 .about_my_image {
