@@ -136,22 +136,22 @@ nav li.active a, nav a:hover{
   color:white;
   border:none;
   border-radius:10px;
-  padding:15px;
+  padding:15px 20px;
   font-size:15px;
   box-shadow: var(--box-shadow);
   margin-bottom:10px;
 }
 
-.aboutme-button a:hover{
-  color:var(--primarycolor);
-}
 .container-content h3{
   margin-top: 15px;
   margin-bottom:18px;
-  letter-spacing: 1;
   font-size:28px;
   font-weight:400;
   color:#828282;
+}
+.color_text {
+  color:black !important;
+  font-weight:450;
 }
 
 .silly_text{
@@ -191,6 +191,16 @@ border-radius:10px;
   height:280px;
   border-radius:10px;
   
+}
+
+footer .contact-box{
+  background-color:var(--navcontainercolor);
+  padding:15px;
+  border-radius:10px; 
+}
+
+footer .contact-box h2{
+  font-size: 40px;
 }
 
 .footer {
