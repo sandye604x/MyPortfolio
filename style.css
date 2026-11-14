@@ -171,6 +171,13 @@ nav li.active a, nav a:hover{
   font-size:16px !important;
 }
 
+.box {
+  max-width:150px;
+  text-align:left;
+  display:block;
+  margin:0 auto;
+}
+
 .container-grid {
 background-color: var(--navcontainercolor);
 object-fit:contain;
